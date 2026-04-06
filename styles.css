@@ -1,6 +1,19 @@
 p{
     font-style: italic;
 }
+a{
+    text-decoration: none;
+    color: rgb(0, 71, 163);
+}
+a:hover{
+    color: orangered;
+}
+
+body{
+    background-color: rgb(241, 236, 230);
+    margin: 0;
+    padding: 0;
+}
 
 form{
     text-align: center;
@@ -17,4 +30,24 @@ button{
     color: azure;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color:black;
+}
+nav{
+    display: flex;
+    gap: 1rem;
+    padding: 15px;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+
+}
+nav a:hover{
+    color: tomato;
 }
